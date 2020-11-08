@@ -1,0 +1,54 @@
+p {
+    text-indent: 10px;
+    text-align: justify;
+}
+
+#logo {
+    float: right;
+}
+
+#logo2 {
+    float: left;
+}
+
+#logo3 {
+    display: none;
+}
+
+#text-div {
+    display: inline;
+}
+
+.bold {
+    font-weight: bold;
+}
+  
+.underline {
+    text-decoration: underline;
+}
+
+.strike-out {
+	text-decoration: line-through;
+}
+  
+.italics {
+    font-style: italic;
+}
+  
+.uppercase {
+    text-transform: uppercase;
+}
+  
+#paragraph1 {
+    letter-spacing: 2px;
+    line-height: 1.5rem;
+}
+
+#paragraph1 {
+    letter-spacing: 2px;
+    line-height: 1.5rem;
+}
+  
+#paragraph3 {
+    word-spacing: 10px;
+}

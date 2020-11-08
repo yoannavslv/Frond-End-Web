@@ -1,0 +1,11 @@
+#firstElement {
+    font-size: 0.75rem; /*1 rem = 12px*/
+}
+
+#secondElement {
+    font-size: 1rem;
+}
+
+#thirdElement {
+    font-size: 1.125rem;
+}
