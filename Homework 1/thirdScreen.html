@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Twitter page</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <link rel='stylesheet' href='style3.css'>
+    </head>
+    <body>
+        <div id="root">
+            
+                <div class="header">
+                    <p>Flutter</p>
+                    <form>
+                        <input type="text" name="search" class="search_box" placeholder="&nbsp; Search">
+                    </form> 
+                </div>
+            <main>
+                <div class="content">
+                    <aside class="profile">
+                        <header class="profilePic">
+                            <img src="images/yoanna2.png" alt="more" id="picture">
+                            <label for="picture" id="under-pic"><b>Yoanna Vasileva</b></label>
+                        </header>
+                        <section id="statuses">
+                            <ul>
+                                <li>
+                                    <p class="status" id="posts">Posts</p><br>
+                                    <label for="posts" class="count">1</label>
+                                </li>
+                                
+                                <li>
+                                    <p class="status" id="reacts">Reactions</p><br>
+                                    <label for="reacts" class="count1">7</label>
+                                </li>
+                            </ul>
+        
+                            <button id="log-out-btn">Log out</button>
+                        </section>
+                    </aside>
+                    <article class="post">
+                        <header class="write">
+                           <img src="images/yoanna2.png" alt="more" id="Simage">
+                           <input type="text" id="post-text" placeholder="Say something">
+                        </header>
+       
+                        <div class="first-post">
+                            <img src="images/yoanna2.png" class="next-to-post" alt="Yoanna">
+                            <div class="post-info">
+                                <div>
+                                    <span id="name"><strong>Yoanna Vasileva</strong></span>
+                                    <span id="time">&#8226; 0 seconds ago</span>
+                                </div>
+                                <img class="closeF" src="images/x.png" alt="remove">
+                                <p id="postedFirst">Ex eu non voluptate esse aliqua velit. Nulla duis ipsum incididunt culpa <br> commodo consequat in. Nostrud elit dolor laboris tempor officia duis <br> 
+                                   exercitation anim voluptate ut enim officia proident. Labore elit esse velit quis <br>
+                                   et voluptate officia laboris cillum dolor poratur excepteur esse laborum. <br>
+                                   Veniam adipisicing quis nisi cillum voluptate veniam nulla sunt. content
+                               </p>
+                               <div class="likes">
+                                   <div>
+                                       <img src="images/like.png" class="like" alt="likes">
+                                       <p id="like-count">5</p>
+                                   </div>
+                                   <div>
+                                       <img src="images/dislike.png" class="dislike" alt="dislikes">
+                                       <p id="dislike-count">3</p>
+                                   </div>
+                               </div>
+                            </div>
+                            
+                        </div>   
+                        
+                        
+                        <div class="second-post">
+                           <img src="images/yoanna2.png" class="next-to-Spost" alt="Yoanna">
+                           <div class="post-info">
+                               <div>
+                                   <p id="name2"><strong>Yoanna</strong></p>
+                                   <p id="time2">&#8226; Last month</p>
+                               </div>
+                               <img class="closeS" src="images/x.png" alt="remove">
+                               <p id="postedSecond">Mollit consequat ipsum sit laboris incididunt sunt deserunt velit elit eu <br>
+                                   proident.
+                              </p>
+                              <div class="likes-second-post">
+                                  <div>
+                                      <img src="images/like.png" class="like-for-second-post" alt="likes">
+                                      <p id="like-count-second">5</p>
+                                  </div>
+                                  <div>
+                                      <img src="images/dislike.png" class="dislike-for-second-post" alt="dislikes">
+                                      <p id="dislike-count-second">3</p>
+                                  </div>
+                              </div>
+                           </div>
+                       </div>  
+                     </article>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>

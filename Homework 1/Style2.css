@@ -1,0 +1,116 @@
+body{
+    font-size: 16 px;
+    background: rgb(177,169,246);
+    background: linear-gradient(110deg, rgba(177,169,246,1) 0%, rgba(177,224,241,1) 85%);
+}  
+.container{
+    max-width: 32rem;
+    max-height: 29rem;
+    width: 90%;
+    height: 85%;
+    background: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    padding: 2.5rem;
+}
+
+.title{
+    position: absolute;
+    top: 10px;
+    left: 35px;
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.undertitle{
+    position: absolute;
+    top: 85px;
+    left: 35px;
+    font-size: 28px;
+    font-family: Helvetica, sans-serif;
+    color: grey;
+}
+
+.form-inline{
+    top:65px;
+    position: relative;
+    width: 87%;
+}
+
+input[type=username]{
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid blue;
+    width: 115%;
+    padding: 8px 0;
+    margin: 15px 0;
+    outline: none;
+    top:60px;
+}
+
+input[type=email]{
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid blue;
+    width: 115%;
+    padding: 8px 0;
+    margin: 25px 0;
+    outline: none;
+    top:45px;
+}
+
+input[type="password"]{
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid blue;
+    width: 115%;
+    padding: 8px 0;
+    margin: 13px 0;
+    outline: none;
+    top:35px;
+}
+
+input, ::-webkit-input-placeholder{
+    font-size: 15px;
+    line-height: 2;
+}
+
+input[type="submit"]{
+    border-radius: 25px;
+    border: 0 none;
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    top: 99px;
+    left:47%;
+    padding: 4px 55px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: #2aa4c9;
+    color:white;
+    font-size: 17px;
+    max-width: 10rem;
+}
+
+@media only screen and (max-width: 890px) {
+    .container {
+        width: 70%;
+        height: 550px;
+    }
+
+    input {
+        width: 80%;
+    }
+
+    #submitButton {
+        margin-right: 15rem;
+        height: 45px;
+    }
+}
