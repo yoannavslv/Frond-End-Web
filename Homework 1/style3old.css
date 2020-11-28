@@ -1,0 +1,354 @@
+body, html, div#root {height: 100%; }
+body{
+    font-size: 16 px;
+    background: rgb(177,169,246);
+    background: linear-gradient(110deg, rgba(177,169,246,1) 0%, rgba(177,224,241,1) 85%);
+}
+
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+.header{
+    width:100%;
+    height: 40px;
+    background-color: white;
+    border-bottom: 1px solid grey;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+}
+
+p{
+    margin:0;
+    padding-top: 5px;
+    font-size: 2em;
+    font-family: Helvetica, sans-serif;
+    float:left;
+    margin-left: 2em;
+}
+
+.search_box{
+    border: none;
+    padding:4px;
+    width:200px;
+    border-radius: 20px;
+    background:rgb(247, 247, 253);
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+    background-image: url(images/Yo.png) ;
+    background-repeat: no-repeat;
+    background-position: 93%;
+    background-size: 11px;
+}
+
+.profile {
+    overflow: hidden;
+    display: inline-block;
+    width: 320px;
+    background-color: white;
+    height: 200px;
+    margin-top: 39px;
+    margin-left: 290px;
+    max-width: 18rem;
+}
+
+.profilePic{
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+}
+
+#picture {
+    width: 5.8rem;
+    height: 5.8rem;
+    border-radius: 50%;
+    align-self: center;
+    margin-top: 0.3rem;
+}
+
+#under-pic{
+    display: block;
+    padding-top: 0.7rem;
+    text-align: center;
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+}
+
+#statuses{
+    justify-content: space-between;
+    background-color: rgba(238, 229, 229, 0.247);
+    display:flex;
+    margin-bottom: 5rem;
+    height: 70px;
+    margin-top: -1.5rem;
+}
+
+ul{
+    margin: 0;
+    margin-left: -3rem;
+    font-family: Helvetica, sans-serif;
+    margin-top: 0.4rem;
+}
+
+li {
+    padding-right: 0;
+    display: inline-block;
+}
+
+.status{
+    font-size: 12px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0,0.6);
+    margin-bottom: 0;
+}
+
+.count{
+    font-size: 17.4px;
+    font-weight: bolder;
+    color: #54bdd6;
+    margin-left: -2rem;
+}
+
+.count1{
+    font-size: 17px;
+    font-weight: bolder;
+    color: #54bdd6;
+    margin-left: 1.5rem;
+}
+
+#log-out-btn {
+    margin-right: 1rem; height: 30px; width: 68px;
+    margin-top: 0.8rem;
+    background-color: white;
+    border-radius: 20px;
+    outline: none;
+    color: #54bdd6;
+    font-weight: bolder;
+    border: 2px solid #54bdd6;
+}
+
+#log-out-btn:hover {
+    cursor: pointer;
+}
+
+.post{
+    width: 600px;
+    background-color: white;
+    height: 342px;
+    margin-top: -12.74rem;
+    margin-left: 585px;
+    max-width: 55rem;
+}
+
+#Simage{
+    display:inline-block;
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-top: 0.5rem;
+    
+}
+
+.write{
+    justify-content: space-between;
+    background-color: rgba(102, 213, 247, 0.048);
+    display:flex;
+    margin-bottom: 1rem;
+    padding-bottom: 0;
+    height: 50px;
+    margin-top: 0rem;
+    border-bottom: 0.2px solid rgba(128, 128, 128, 0.274) ;
+}
+
+#post-text{
+    width: 70%;
+    height: 30px;
+    align-self: center;
+    border-radius: 20px;
+    outline: none;
+    border: 0.1px solid rgba(128, 128, 128, 0.219);
+    margin-left: 1rem;
+    margin-top: 0.3rem;
+    margin-right: 1.9rem;
+    padding-left: 1.1rem;
+    padding-right: 2.5rem;
+    background-image: url("images/saysmthicon.png");
+    background-repeat: no-repeat;
+    background-position: 97%;
+    background-size: 15px;
+}
+
+#post-text::placeholder {
+    color: #54bdd6;
+    font-weight: bold;
+}
+
+.first-post{
+    background-color: white;
+    max-width: 55rem;
+    height: 89px;
+    display:flex;
+    border-bottom: 1.5px solid #E3E8E9;
+    padding-bottom: 67px;
+    padding-top: -5rem;
+}
+
+.next-to-post{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 1.4rem;
+    border-radius: 50%;
+    margin-top: 0.1rem;
+}
+
+.next-to-Spost{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin-left: 1.4rem;
+    margin-top: 0.7rem;
+}
+
+.post-info{
+    padding-top: 0.3rem;
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+span{
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+}
+
+#name{
+ font-size: 16px;
+ font-family: Helvetica, sans-serif;
+ margin-top: -1.9rem;
+ margin-left: 1rem;
+}
+
+#name2{
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    margin-top: -3.2rem;
+    margin-left: 4.8rem;
+}
+
+#time2{
+    font-size: 15px;
+    color: rgb(158, 158, 158);
+    font-family: Helvetica, sans-serif;
+    margin-left: 8.9rem;
+    margin-top: -3.1rem;
+}
+
+#time{
+    font-size: 15px;
+    color: rgb(158, 158, 158);
+    font-family: Helvetica, sans-serif;
+}
+
+#postedFirst{
+    font-size: 15px;
+    font-family: Helvetica, sans-serif;
+    margin-left: 1rem;
+}
+
+#postedSecond{
+    font-size: 16px;
+    margin-left: 4.8rem;
+    margin-top: -0.1rem;
+}
+
+.dislike {
+    height: 15px;
+    width: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-left: 5.5rem;
+    margin-top: -0.8rem;
+}
+
+.like {
+    gap: 64px;
+    display: flex;
+    flex-direction: row;
+    height: 15px;
+    width: 15px;
+    margin-left: 1.1rem;
+    margin-top: 0.5rem;
+    padding-bottom: -1rem;
+}
+
+.like-for-second-post{
+    gap: 64px;
+    display: flex;
+    flex-direction: row;
+    height: 15px;
+    width: 15px;
+    margin-left: 5rem;
+    margin-top: 0.5rem;
+}
+
+.dislike-for-second-post{
+    height: 15px;
+    width: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-left: 9.4rem;
+    margin-top: -0.9rem;
+}
+  
+#dislike-count {
+    margin-left: 6.8rem;
+    margin-top: -1.4rem;
+    font-size: 16px;
+}
+
+#like-count{
+    margin-left: 2.3rem;
+    margin-top: -1.3rem;
+    font-size: 15px;
+}
+
+#like-count-second{
+    margin-left: 6.2rem;
+    margin-top: -1.3rem;
+    font-size: 15px;
+}
+
+#dislike-count-second{
+    font-size: 16px;
+    margin-left: 3.9rem;
+    margin-top: -1.3rem;
+}
+
+.closeF{
+    width: 8px;
+    height: 8px;
+    margin-left: 32rem;
+    margin-top: -1.4rem;
+}
+
+.closeS{
+    width: 8px;
+    height: 8px;
+    margin-left: 36rem;
+    margin-top: -2.9rem; 
+}
+
+@media screen and (max-width: 890px) {
+
+    .post{
+        max-width: 18rem;
+        width: 100%;
+        margin-right: 5px;
+    }
+}
