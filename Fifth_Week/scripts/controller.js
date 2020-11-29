@@ -1,5 +1,5 @@
 function register(username, email, password){
-    window.auth.register(email.value, password.value, (isDone, errCode, msg) => {
+    window.auth.register(username.value, email.value, password.value, (isDone, errCode, msg) => {
         if(isDone){
             location.replace("./posts.html")
         }
