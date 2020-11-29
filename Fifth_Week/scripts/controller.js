@@ -64,7 +64,7 @@ function validData() {
 
     if(username === undefined || username === null){
         alert("You have successfully registrated!");
-        register(username,email,password);
+        register(username,validEmail,validPassword);
     }
 }
 
